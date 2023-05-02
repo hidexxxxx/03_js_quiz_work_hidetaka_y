@@ -134,15 +134,22 @@ nav .login li {
     padding-right: 48px;
 }
 
-
-
-
-
-
-
-
-
-
+.mypage-button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    color: rgb(159, 116, 14);
+    display: block;
+    line-height: 1;
+    margin-top: 5%;
+    margin-right: 10px;
+    margin-left: 42%;
+    margin-bottom: 1%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px black;
+}
 
 .wrapper-footer {
     max-width: calc(800px + 2px);
