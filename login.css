@@ -21,12 +21,23 @@ a:visited {
     border-bottom: solid 1px #909090;
 }
 
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    max-width: 1000px;
+    padding: 46px 0 26px 0;
+    margin: 0 auto 50px auto;
+    border-bottom: solid 1px #909090;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 50px;
-
 }
 
 nav .menu,
@@ -45,7 +56,7 @@ nav .login li {
 }
 
 .brand-logo {
-    border: 0.5px solid #909090;
+    border: 0.01px solid #909090;
     width: 50%;
     height: auto;
     transition-duration: 0.5s;
@@ -90,24 +101,64 @@ nav .login li {
     cursor: pointer;
 }
 
+.form {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
 
+.input-name-class,
+.input-password-class {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
 
+}
 
+#input-name,
+#input-password {
+    width: 250px;
+}
 
+.input-name-label label,
+.input-password-label {
+    width: 200px;
+}
 
+.control-button {
+    font-size: 20px;
+    display: flex;
+    margin-left: 42%;
+    margin-right: 30%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
 
-
-
-
+.save-button,
+.clear-button {
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: #000000;
+    color: rgb(159, 116, 14);
+    display: block;
+    line-height: 1;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px black;
+}
 
 .wrapper-footer {
     max-width: calc(800px + 2px);
-    position: fixed;
+    position: relative;
     bottom: 0px;
     left: 55%;
     transform: translateX(-50%);
-    padding-bottom: 30px;
-
+    /* padding-bottom: 1px; */
 }
 
 nav {
@@ -130,11 +181,11 @@ nav .menu-footer li {
 }
 
 .copy-rights {
+    position: relative;
     color: rgb(175, 122, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0px;
+    padding-bottom: 20px;
     width: 100%;
 }
