@@ -90,6 +90,50 @@ nav .login li {
     cursor: pointer;
 }
 
+.album-A {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+}
+
+.no1,
+.no2,
+.no3,
+.no4,
+.no5,
+.no6,
+.no7,
+.no8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.no1-photo,
+.no2-photo,
+.no3-photo,
+.no4-photo,
+.no5-photo,
+.no6-photo,
+.no7-photo,
+.no8-photo {
+    width: 50%;
+}
+
+.no1-text,
+.no2-text,
+.no3-text,
+.no4-text,
+.no5-text,
+.no6-text,
+.no7-text,
+.no8-text {
+    width: 50%;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
 
 
 
@@ -102,12 +146,11 @@ nav .login li {
 
 .wrapper-footer {
     max-width: calc(800px + 2px);
-    position: fixed;
+    position: relative;
     bottom: 0px;
     left: 55%;
     transform: translateX(-50%);
-    padding-bottom: 30px;
-
+    /* padding-bottom: 1px; */
 }
 
 nav {
@@ -130,11 +173,11 @@ nav .menu-footer li {
 }
 
 .copy-rights {
+    position: relative;
     color: rgb(175, 122, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0px;
+    padding-bottom: 20px;
     width: 100%;
 }

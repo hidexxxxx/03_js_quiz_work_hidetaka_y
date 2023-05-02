@@ -14,6 +14,11 @@ a:visited {
     text-decoration: none;
 }
 
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 #header {
     max-width: 1000px;
     padding: 46px 0 26px 0;
@@ -90,15 +95,66 @@ nav .login li {
     cursor: pointer;
 }
 
+.input-name-class,
+.input-password-class,
+.input-email-class,
+.input-address-class,
+.input-birth-class {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    align-items: baseline;
+}
 
+#input-name,
+#input-password,
+#input-email,
+#input-address,
+#input-birth {
+    width: 250px;
+}
 
+.input-name-label label,
+.input-password-label,
+.input-email-label label,
+.input-address-label label,
+.input-birth-label label {
+    width: 200px;
+}
 
+li {
+    list-style-type: none;
+    display: table-cell;
+    cursor: pointer;
+}
 
+.control-button {
+    font-size: 20px;
+    display: flex;
+    margin-left: 42%;
+    margin-right: 30%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
 
-
-
-
-
+.save-button,
+.clear-button {
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: #000000;
+    color: rgb(159, 116, 14);
+    display: block;
+    line-height: 1;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px black;
+}
 
 .wrapper-footer {
     max-width: calc(800px + 2px);
@@ -107,7 +163,6 @@ nav .login li {
     left: 55%;
     transform: translateX(-50%);
     padding-bottom: 30px;
-
 }
 
 nav {

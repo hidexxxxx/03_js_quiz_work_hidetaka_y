@@ -6,6 +6,7 @@ body {
     font-family: Georgia;
     background-color: rgb(35, 35, 35);
     color: whitesmoke;
+    cursor: pointer;
 }
 
 a:link,
@@ -90,6 +91,61 @@ nav .login li {
     cursor: pointer;
 }
 
+.slider,
+.archive-1st-row,
+.archive-2st-row {
+    width: 75%;
+    margin-left: 19%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider {
+    border-bottom: 0.5px solid #909090;
+}
+
+.archive-2st-row {
+    margin-top: 1%;
+    /* margin-bottom: 2%; */
+}
+
+p {
+    max-width: 80%;
+}
+
+img {
+    width: 75%;
+}
+
+.slick-slide {
+    height: auto !important;
+}
+
+.slick-next {
+    right: 0 !important;
+}
+
+.slick-prev {
+    left: 0 !important;
+    margin-left: -8%;
+}
+
+.now-working-h,
+.archive {
+    margin-left: 19%;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -102,12 +158,11 @@ nav .login li {
 
 .wrapper-footer {
     max-width: calc(800px + 2px);
-    position: fixed;
+    position: relative;
     bottom: 0px;
     left: 55%;
     transform: translateX(-50%);
-    padding-bottom: 30px;
-
+    /* padding-bottom: 1px; */
 }
 
 nav {
@@ -130,11 +185,11 @@ nav .menu-footer li {
 }
 
 .copy-rights {
+    position: relative;
     color: rgb(175, 122, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0px;
+    padding-bottom: 20px;
     width: 100%;
 }

@@ -100,14 +100,15 @@ nav .login li {
 
 
 
+
+
 .wrapper-footer {
     max-width: calc(800px + 2px);
-    position: fixed;
+    position: relative;
     bottom: 0px;
     left: 55%;
     transform: translateX(-50%);
-    padding-bottom: 30px;
-
+    /* padding-bottom: 1px; */
 }
 
 nav {
@@ -130,11 +131,11 @@ nav .menu-footer li {
 }
 
 .copy-rights {
+    position: relative;
     color: rgb(175, 122, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0px;
+    padding-bottom: 20px;
     width: 100%;
 }
